@@ -1,1 +1,1 @@
-# statistics_for_engineering
+# statistics for engineering and science
