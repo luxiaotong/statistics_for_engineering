@@ -7,3 +7,19 @@ Type 2, Type 1
 1-0.61668941178=0.383311
 0.02936220479
 1-0.02936220479=0.970638
+
+# 8.11
+H0: mean = 20
+Ha: mean > 20
+
+# 8.13
+H0: mean = 22
+Ha: mean < 22
+
+# 8.15
+H0: mean = rival
+Ha: mean > rival
+
+# 8.17
+H0: mean1 = mean2
+Ha: mean1 != mean2
