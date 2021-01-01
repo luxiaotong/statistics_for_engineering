@@ -23,3 +23,67 @@ Ha: mean > rival
 # 8.17
 H0: mean1 = mean2
 Ha: mean1 != mean2
+
+# 8.19
+2*.1587=0.3174
+2*.0089=0.0178
+0
+2*.0735=0.147
+
+# 8.21
+.1032/2=0.0516>0.05, fail to reject H0
+1-.1032/2=0.9484>.1, fail to reject H0
+.1032/2=0.0516<.1, reject H0
+.1032/2=0.0516>.0.1, fail to reject
+
+# 8.23
+H0: mean = 1
+Ha: mean != 1
+n = 416
+t = -47.09
+p = 0.000
+alpha = .01
+reject H0
+population normal
+
+# 8.25
+n = 3
+H0: mean = 1.4
+Ha: mean > 1.4
+alpha = 0.1
+mean = 5.243333
+sd = 0.192180
+t = (5.243333-1.4)/(.192180/sqrt(3))=34.63861
+p = 0
+reject H0
+t = (5.243333-5)/(.192180/sqrt(3))=2.193075
+beta = 0.08
+
+# 8.27
+n = 18
+H0: mean = 15
+Ha: mean != 15
+t = 3.229
+p = 0
+yes, reject H0
+
+# 8.29
+n = 67
+H0: mean = 10000
+Ha: mean > 10000
+mean = 11066.432836
+sd = 1594.959905
+z = (11066.432836 - 10000)/(1594.959905/sqrt(67))=5.472946
+p = 0
+reject H0
+
+# 8.31
+n = 15
+H0: mean = 0
+Ha: mean != 0
+alpha = .1
+mean = 0.085333
+sd = 1.603095
+t = (0.085333-0)/(1.603095/sqrt(15))=0.20616
+p = 0.8396
+fail to reject H0
